@@ -24,6 +24,20 @@ int main(){
         Head=temp;
         }
     }
-    Node*ptr=Head;
-    
+    Node*prev=NULL;
+    Node*current=Head;
+    Node*next=NULL;
+    while(current!=NULL){
+        next=current->next;
+        current->next=prev;
+        prev=current;
+        current=next;
+    }
+    Head=prev;
+    Node*temp=Head;
+    while(temp!=NULL){
+        cout<<temp->data<<" ";
+        temp=temp->next;
+    }
+    return 0;
 }
