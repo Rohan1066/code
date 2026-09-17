@@ -1,0 +1,19 @@
+h1{
+    background-color: red;
+}
+body{
+    background-image: url(https://i.pinimg.com/236x/63/cd/9e/63cd9e3fd6b8fd5c14c82d605a422d35.jpg);
+
+}
+#yo{
+    background-color:powderblue;
+} 
+ul{
+    background-color: rgb(61, 37, 37);
+      font-family: "Open Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
